@@ -96,14 +96,6 @@
 
 ---
 
-### 📊 GitHub Statistics
-
-![Bhavesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=bhaveshbadaya95&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bhaveshbadaya95&layout=compact&theme=radical&hide_border=true)
-
----
-
 ### 🌐 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bbadaya95)
