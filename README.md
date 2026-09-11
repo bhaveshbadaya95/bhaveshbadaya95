@@ -100,10 +100,9 @@
 
 | Project | Description | Tech Stack |
 |---------|-------------|-----------|
-| [langchain_project](https://github.com/bhaveshbadaya95/langchain_project) | Data pipeline project with LangChain integration | Python, LangChain |
-| [Docker-Zero-to-Hero](https://github.com/bhaveshbadaya95/Docker-Zero-to-Hero) | Container and DevOps learning examples | Docker, Kubernetes |
-| [Simple-DevOps-Project](https://github.com/bhaveshbadaya95/Simple-DevOps-Project) | DevOps pipeline implementation | CI/CD, Infrastructure |
-| [bhavesh-shellexampleproject](https://github.com/bhaveshbadaya95/bhavesh-shellexampleproject) | Automation and scripting examples | Bash, Shell |
+| [Azure-Data-Engineering-End-to-End-Project](https://github.com/bhaveshbadaya95/Azure-Data-Engineering-End-to-End-Project) | End-to-end ETL pipeline: ingests and transforms data through Azure Data Factory and Databricks, warehouses it in Synapse, and visualizes it in a Power BI dashboard | Azure Data Factory, Databricks (PySpark), Synapse Analytics, Power BI |
+| [realtime-streaming-pipeline](https://github.com/bhaveshbadaya95/realtime-streaming-pipeline) | Real-time streaming pipeline: Airflow ingests live user events into Kafka, Spark Structured Streaming processes them into Cassandra, visualized on a live Streamlit dashboard | Airflow, Kafka, Spark Structured Streaming, Cassandra, Streamlit, Docker |
+| [tesla-telemetry-etl](https://github.com/bhaveshbadaya95/tesla-telemetry-etl) | Connected-vehicle telemetry pipeline: Airflow orchestrates S3 ingestion, schema/quality validation, and incremental Snowflake loading via stage-copy-merge | Airflow, AWS S3, Snowflake, Pandas, Pydantic, Docker |
 
 ---
 
@@ -147,4 +146,4 @@
 
 ---
 
-*Last Updated: July 2026*
+*Last Updated: September 2026*
