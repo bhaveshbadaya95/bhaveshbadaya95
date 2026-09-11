@@ -42,40 +42,29 @@
 **CI/CD & Orchestration:**
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
 
 **Monitoring & Tools:**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
 ---
 
 ### 💼 Professional Experience
 
 #### **Data Engineer** | Personify Health | May 2024 - Present
-- Designed and developed scalable data pipelines using Python, Snowflake, and AWS S3 for large-scale data processing
-- Built robust ETL/ELT frameworks enabling automated ingestion, transformation, and loading into Snowflake
-- Implemented efficient data loading strategies using Snowflake COPY INTO with S3 (incremental loads, schema evolution, error logging)
-- Developed infrastructure using Terraform, provisioning Snowflake objects and AWS resources in version-controlled environment
-- Optimized Snowflake performance by tuning warehouse sizes, query design, and clustering strategies
-- Designed data validation and reconciliation mechanisms ensuring consistency between source systems and Snowflake
-- Built monitoring and alerting systems for proactive detection and resolution of production issues
-- Automated CI/CD workflows for data pipelines and infrastructure using Terraform
-- Designed solutions to identify and clean up unused Snowflake tables, reducing storage costs and improving data governance
+- Designed Python + AWS S3 → Snowflake ingestion pipelines using `COPY INTO` with incremental loads, schema evolution handling, and error logging, enabling reliable ingestion of 15M+ records/day with zero manual intervention
+- Built Terraform modules to provision Snowflake objects (DBs, schemas, roles, warehouses) and AWS resources in version control across dev/staging/prod, cutting deployment time from hours to minutes and eliminating config drift across all 3 environments
+- Tuned Snowflake warehouse sizing, query design, and clustering keys, reducing query costs by 35% and improving average query latency by ~20%
+- Redesigned pipelines to be idempotent with SQL/Python-based validation and reconciliation checks, cutting recurring data-quality incidents by ~90% (from ~15/month to under 2)
+- Built monitoring and alerting on pipeline health, cutting incident response time by 60%
+- Built a metadata + query-history-driven detection solution to flag stale Snowflake tables, reducing storage cost by ~20% and improving governance audit readiness
 
 #### **Associate Software Engineer** | TAIYO.AI | Feb 2021 - May 2024
-- Designed and built scalable data pipelines using Python and Databricks (PySpark) processing billions of records
-- Optimized Spark workloads on Databricks through partitioning, caching, broadcast joins, and cluster tuning
-- Developed reusable and modular Python-based data frameworks standardizing ingestion, transformation, and validation
-- Implemented Delta Lake for ACID transactions, schema evolution, and time travel capabilities
-- Built and maintained data quality checks and monitoring systems improving data reliability
-- Collaborated with cross-functional teams (Data Science, Analytics, Product) designing data models for business insights
-- Automated workflows using Apache Airflow and Databricks Workflows ensuring reliable scheduling and dependency management
-- Designed and implemented real-time and batch processing pipelines enabling near real-time analytics
+- Built PySpark pipelines on Databricks with partitioning, caching, and broadcast joins to scale to billions of records, cutting job execution time by ~40% and processing cost by ~30%
+- Built reusable, modular Python frameworks standardizing ingestion and validation across teams, cutting onboarding time for new data sources from ~5 days to 1 day
+- Implemented Delta Lake for ACID transactions, schema evolution, and time travel, eliminating data corruption incidents and enabling point-in-time recovery
 
 #### **Development Associate** | BYJU'S | May 2019 - March 2021
 - Built and optimized data pipelines using Python and Apache Spark for large-scale dataset processing
@@ -89,10 +78,11 @@
 
 ### 🎯 Key Achievements
 
-- 📊 **35% Cost Reduction** - Optimized Snowflake and query performance through resource management
-- 🚀 **Infrastructure Automation** - Implemented Terraform-based infrastructure, reducing deployment time from hours to minutes
-- ☁️ **High Availability Platform** - Built Kubernetes-based data processing platform handling 500+ daily ETL jobs with 99.9% uptime
-- 📈 **Incident Response** - Developed comprehensive monitoring dashboards reducing incident response time by 60%
+- 📊 **35% Cost Reduction** - Tuned Snowflake warehouse sizing, query design, and clustering to cut query costs
+- 🚀 **Infrastructure Automation** - Terraform-based Snowflake/AWS provisioning cut deployment time from hours to minutes
+- 📦 **15M+ Records/Day** - Reliable S3 → Snowflake ingestion pipelines with zero manual intervention
+- 📈 **60% Faster Incident Response** - Pipeline health monitoring and alerting cut incident response time
+- ✅ **~90% Fewer Data-Quality Incidents** - Idempotent pipelines with validation/reconciliation checks
 
 ---
 
@@ -138,7 +128,7 @@
 - **Infrastructure as Code** - Terraform, Kubernetes, CI/CD automation
 - **Data Quality & Governance** - Validation, reconciliation, monitoring, and alerting
 - **Big Data Technologies** - Spark, Databricks, Kafka, Delta Lake
-- **Cloud Platforms** - AWS, GCP
+- **Cloud Platforms** - AWS, Azure
 
 ---
 
